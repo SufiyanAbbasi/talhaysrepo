@@ -1,0 +1,40 @@
+<!-- resume.component.html -->
+<section class="container">
+    <h1 class="mb-4 text-uppercase fs-1 fw-bold">Resume</h1>
+
+    <!-- Education Section -->
+    <div class="mb-4">
+        <h2 class="text-danger">Education</h2>
+        <p>Bachelor of Science in English, Abbottabad University</p>
+    </div>
+
+    <!-- Work Experience Section -->
+    <div class="mb-4">
+        <h2 class="text-danger">Work Experience</h2>
+        <p>Video Editor, THEITSOULS, 2022 - Present</p>
+        <p>Video Editor, BeeTechnica</p>
+    </div>
+    <div class="mt-4">
+        <h2 class="text-danger">Resume</h2>
+        <a href="../../../assets/Profile.pdf" class="btn btn-secondary " target="_blank">View Resume</a>
+
+    </div>
+
+    <!-- Skills Section -->
+    <div class="mt-5">
+        <h1 class="mb-4 text-uppercase fs-1 fw-bold">Skills</h1>
+        <div class="row skills justify-content-center mt-5">
+            <div class="col-6 col-sm-6 col-md-3 col-lg-2 mb-4" *ngFor="let skill of skills">
+                <div class="skill-box d-flex flex-column align-items-center justify-content-center">
+                    <img [src]="skill.img" alt="{{ skill.name }} logo" class="skill-img mb-2">
+                    <p class="text-center  text-danger mb-0">{{ skill.name }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+</section>

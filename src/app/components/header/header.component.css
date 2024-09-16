@@ -1,0 +1,78 @@
+
+.containers {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  /* Ensure the header is above other content */
+  background-color: #040C16;
+}
+
+
+/* Brand Name Styling */
+.containers .navbar-brand {
+  font-weight: bold;
+  color: #fff;
+  /* White color for brand name */
+}
+
+/* Logo Image Styling */
+.containers .logo-img {
+  height: 50px;
+  /* Adjust the height as needed */
+  margin-right: 5px;
+  /* Add some spacing between the logo and brand name */
+}
+
+/* Toggler Icon Styling */
+.containers .navbar-toggler .navbar-toggler-icon {
+  background-color: #fff;
+  /* White color for toggler icon */
+}
+
+/* Link Styling */
+.containers .nav-link {
+  cursor: pointer;
+  color: white;
+  /* Light gray color for links */
+  transition: color 0.3s ease-in-out;
+  /* Smooth transition on hover */
+}
+
+.containers .nav-link:hover {
+  color: #fff;
+  /* White color for links on hover */
+  font-size: 17px;
+}
+
+
+
+/* Active Link Styling */
+.containers .nav-link.active {
+  font-weight: bold;
+  color: #fff;
+  /* White color for active link */
+}
+
+/* Subtle Animation on Brand Name Hover */
+.containers .navbar-brand:hover {
+  transform: scale(1.05);
+  /* Increase size on hover */
+}
+
+/* Animation for Nav Links */
+.containers .nav-item {
+  transition: transform 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+.containers .nav-item:hover {
+  transform: translateY(-2px);
+  /* Move up slightly on hover */
+}
+
+/* .active {
+  border-bottom: 2px solid red;
+} */

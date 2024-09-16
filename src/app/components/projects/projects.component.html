@@ -1,0 +1,21 @@
+<!-- projects.component.html -->
+<section class="container my-5 py-5">
+    <span class="text-danger text-uppercase fs-5 ">My Work</span>
+    <h1 class="mb-4 text-white text-uppercase fw-bold  " style="letter-spacing: 4px;">Projects</h1>
+    <div class="row">
+      <div class="col-md-4 mb-4" *ngFor="let project of projects">
+        <div class="card">
+          <!-- Project Image -->
+          <img [src]="project.imageUrl" class="card-img-top border-bottom " alt="Project Image" >
+          <div class="card-body">
+            <!-- Project Name -->
+            <h5 class="card-title" style="letter-spacing: 2px;">{{ project.name }}</h5>
+  
+            <!-- Project Link -->
+            <a href="{{ project.link }}" class="btn btn-primary" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  

@@ -1,0 +1,51 @@
+/* home.component.css */
+.container-fluid {
+    padding-top: 50px;
+  }
+  .row{
+    margin: 10px 50px;
+  }
+  .col-md-6 {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #777;
+    line-height: 1.6;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  @media screen and (max-width: 450px) {
+    .row {
+      margin: 10px 0px;
+    }
+    .col-md-6 {
+      padding: 5px;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    h4 {
+      font-size: 1.2rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,17 @@
+<section class="container-fluid contact-section text-white mt-5 pb-4">
+  <h2 class="text-uppercase fw-bold" style="letter-spacing: 3px;">Contacts</h2>
+
+  <!-- Contact Information -->
+  <div class="row mt-4">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb-4" *ngFor="let item of contactItems">
+          <div class="contact-item d-flex align-items-center justify-content-start p-2">
+              <div class="contact-icon-wrapper">
+                  <img [src]="item.iconUrl" [alt]="item.name + ' Logo'" class="contact-icon">
+              </div>
+              <div class="ms-3">
+                  <a *ngIf="item.link" [href]="item.link" target="_blank" class="contact-link">{{ item.name }}</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
