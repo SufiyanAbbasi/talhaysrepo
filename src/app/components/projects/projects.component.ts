@@ -19,12 +19,12 @@ export class ProjectsComponent {
   projects: Project[] = [
     {
       name: 'Long videos',
-      imageUrl: 'assets/images/long3.jpeg',
+      imageUrl: 'assets/images/long.jpeg',
       link: 'https://drive.google.com/drive/folders/1qoxrsUEYgvLwan_IEjOlWPWvowTMWP-7'
     },
     {
       name: 'Short Videos',
-      imageUrl: '/assets/images/short6.jpeg',
+      imageUrl: '/assets/images/short.jpeg',
       link: 'https://drive.google.com/drive/folders/1GxdlRuZWCgBd3NYcR9yNyIcP0BRnu-qf'
     },
     {

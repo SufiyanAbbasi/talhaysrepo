@@ -12,10 +12,10 @@ export class ResumeComponent {
   skills = [
     { name: 'Video Editing', img: 'assets/images/videditor.png' },
     { name: 'Animation', img: 'assets/images/ani.jpeg' },
-    { name: 'Youtube Videos', img: 'assets/images/youtube.jpeg' },
-    { name: 'Cashcow videos', img: 'assets/images/cash.jpeg' },
+    { name: 'Youtube Videos', img: 'assets/images/youtube.png' },
+    { name: 'Cashcow videos', img: 'assets/images/cow.png' },
     { name: 'Visual Storytelling', img: 'assets/images/vis.png' },
-    { name: 'Youtube Add', img: 'assets/images/youtubeadd.png' },
+    { name: 'Youtube Add', img: 'assets/images/add.png' },
     { name: ' Social media video', img: 'assets/images/social.jpeg' },
   ];
 }
